@@ -1,0 +1,395 @@
+#email {
+    height: 30px;
+}
+
+#password {
+    height: 30px;
+}
+
+.error-message {
+    margin-bottom: 12px;
+    font-style: oblique;
+    color: red;
+}
+
+.no-room-to-display {
+    display: flex;
+}
+
+.text-to-display {
+    flex: 1
+}
+
+.action-button {
+    flex: 1;
+    padding-top: 0.25rem;
+}
+
+.room-detail {
+    display: flex;
+}
+
+.room-detail-icon i {
+    font-size: 10px;
+    color: #3f51b5;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 576px) {
+    .room-display-container {
+        border: 1px solid gainsboro;
+        margin-bottom: 7px;
+    }
+    .logo {
+        height: 90px;
+        width: auto;
+    }
+    .add-icon {
+        position: fixed;
+        z-index: 99999;
+        bottom: 20px;
+        right: 20px;
+    }
+    .style-icon {
+        font-size: 30px !important;
+        color: #3f51b5;
+    }
+    .paper-login {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center,
+    }
+    .room-image {
+        flex: 2;
+    }
+    .room-image img {
+        height: 265px;
+        width: 353px;
+        align-items: center;
+    }
+    .room-details {
+        flex: 2
+    }
+    .room-call-to-action {
+        flex: 1;
+    }
+    .call-to-action-buttons {
+        display: flex;
+        flex-direction: column;
+        padding: 6px
+    }
+    .room-made-brand {
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 0.8rem;
+        text-decoration: underline;
+    }
+    .room-detail-icon {
+        /* margin-bottom: 0.08rem; */
+        padding-left: 1.2rem !important;
+        flex: 1;
+    }
+    .room-detail-text {
+        flex: 10;
+        justify-content: center;
+        padding-top: .4rem !important;
+        /* padding-bottom: .12rem !important; */
+        padding-left: 0.8rem !important;
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (min-width: 576px) {
+    .logo {
+        height: 90px;
+        width: auto;
+    }
+    .add-icon {
+        position: fixed;
+        z-index: 99999;
+        bottom: 20px;
+        right: 20px;
+    }
+    .style-icon {
+        font-size: 30px !important;
+        color: #3f51b5;
+    }
+    .paper-login {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center,
+    }
+    .room-image {
+        flex: 2;
+    }
+    .room-image img {
+        height: 100px;
+        width: 150px;
+        align-items: center;
+    }
+    .room-details {
+        flex: 2
+    }
+    .room-call-to-action {
+        flex: 1;
+    }
+    .call-to-action-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .room-made-brand {
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 0.8rem;
+        text-decoration: underline;
+    }
+    .room-detail-icon {
+        /* margin-bottom: 0.08rem; */
+        padding-left: 1.2rem !important;
+        flex: 1;
+    }
+    .room-detail-text {
+        flex: 10;
+        justify-content: center;
+        padding-top: .4rem !important;
+        /* padding-bottom: .12rem !important; */
+        padding-left: 0.8rem !important;
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .logo {
+        height: 120px;
+        width: auto;
+    }
+    .add-icon {
+        position: fixed;
+        z-index: 99999;
+        bottom: 50px;
+        right: 50px;
+    }
+    .style-icon {
+        font-size: 40px !important;
+        color: #3f51b5;
+    }
+    .paper-login {
+        margin-top: 17rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center,
+    }
+    .room-display-container {
+        display: flex;
+        border: 1px solid gainsboro;
+        margin-bottom: 7px;
+    }
+    .room-image {
+        flex: 2;
+    }
+    .room-image img {
+        height: 245px;
+        width: 300px;
+        align-items: center;
+    }
+    .room-details {
+        flex: 4;
+    }
+    .room-call-to-action {
+        flex: 2;
+        padding: 5px;
+        position: relative;
+    }
+    .call-to-action-buttons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 65%;
+        width: 95%;
+    }
+    .room-made-brand {
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 0.8rem;
+        text-decoration: underline;
+    }
+    .room-detail-icon {
+        text-align: center;
+        flex: 1;
+    }
+    .room-detail-text {
+        flex: 10;
+        justify-content: center;
+        padding-left: 0.8rem !important;
+        font-weight: 500;
+        font-size: 9px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .logo {
+        height: 120px;
+        width: auto;
+    }
+    .add-icon {
+        position: fixed;
+        z-index: 99999;
+        bottom: 70px;
+        right: 70px;
+    }
+    .style-icon {
+        font-size: 50px !important;
+        color: #3f51b5;
+    }
+    .paper-login {
+        margin-top: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center,
+    }
+    .room-display-container {
+        display: flex;
+        border: 1px solid gainsboro;
+        margin-bottom: 7px;
+    }
+    .room-image {
+        flex: 2;
+    }
+    .room-image img {
+        height: 265px;
+        width: 320px;
+        align-items: center;
+    }
+    .room-detail {
+        display: flex;
+        margin: 0.1rem 0 ;
+    }
+    
+    .room-details {
+        flex: 4;
+    }
+    .room-call-to-action {
+        flex: 2;
+        padding: 5px;
+        position: relative;
+    }
+    .call-to-action-buttons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 65%;
+        width: 95%;
+    }
+    .room-made-brand {
+        font-size: 23px;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 1rem;
+    }
+    .room-detail-icon {
+        flex: 1;
+        text-align: center;
+    }
+    .room-detail-text {
+        flex: 10;
+        justify-content: center;
+        padding-top: .05rem !important;
+        padding-bottom: .05rem !important;
+        padding-left: 0.5rem !important;
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .logo {
+        height: 120px;
+        width: auto;
+    }
+    .add-icon {
+        position: fixed;
+        z-index: 99999;
+        bottom: 50px;
+        right: 50px;
+    }
+    .style-icon {
+        font-size: 30px !important;
+        color: #3f51b5;
+    }
+    .paper-login {
+        margin-top: 13rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center,
+    }
+    .roomd-header {
+        height: 45px;
+        background-color: #DCDCDC !important;
+        border-radius: 0 !important;
+    }
+    .room-display-container {
+        display: flex;
+        border: 1px solid gainsboro;
+        margin-bottom: 7px;
+    }
+    .room-image {
+        flex: 2;
+    }
+    .room-image img {
+        height: 275px;
+        width: 325px;
+        align-items: center;
+    }
+    .room-detail {
+        display: flex;
+        margin: 0.15rem 0 ;
+    }
+    .room-details {
+        flex: 4;
+    }
+    .room-call-to-action {
+        flex: 2;
+        padding: 5px;
+        position: relative;
+    }
+    .call-to-action-buttons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 65%;
+        width: 95%;
+    }
+    .room-made-brand {
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 0.8rem;
+    }
+    .room-detail-icon {
+        text-align: center;
+        flex: 1;
+    }
+    .room-detail-text {
+        flex: 10;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
